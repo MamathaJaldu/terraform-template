@@ -1,5 +1,5 @@
 variable "region" {
-  default = "us-east-2"  # Ohio the default region
+  default = "us-east-1"  # virginia the default region
 }
 
 variable "full_cidr_block" {

@@ -4,7 +4,7 @@ resource "aws_launch_configuration" "alpha-launch-configuration" {
   instance_type   = "t2.micro"
   user_data       = file("user-data.sh")
   security_groups = [aws_security_group.alpha-sg.id]
-  key_name = "us-east-2"
+  key_name = "us-east-1"
 
   lifecycle {
     create_before_destroy = true
